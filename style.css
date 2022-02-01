@@ -1,0 +1,30 @@
+.logo-img{
+    width: 50px;
+}
+.header{
+    background-color: #e3f2f2!important;
+}
+.backround-img{
+    height: 500px;
+}
+.progress-section{
+    background-color: #d4edda;
+    color: #155724;
+}
+.banner-section{
+    position: relative;
+    z-index: 1;
+}
+.banner-section::after{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.719);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.home-s{
+    background-color: #586169;
+}
